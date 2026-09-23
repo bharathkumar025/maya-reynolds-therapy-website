@@ -35,49 +35,99 @@ export default function Home() {
   return (
     <main>
       <header className="sticky top-0 z-50 border-b border-ink/10 bg-[#fbfaf6]/95 backdrop-blur">
-        <div className="container-narrow flex h-[76px] items-center justify-between">
-          <a href="#" className="flex items-center gap-3">
-            <span className="grid h-10 w-10 place-items-center rounded-full bg-sage text-white"><HeartHandshake size={20}/></span>
-            <span>
-              <span className="block font-serif text-xl leading-none">Maya Reynolds</span>
-              <span className="text-[10px] font-semibold uppercase tracking-[.22em] text-sage">Therapy & Counseling</span>
-            </span>
-          </a>
-          <nav className="hidden items-center gap-7 text-sm font-medium md:flex">
-            <a href="#about" className="hover:text-sage">About</a>
-            <a href="#services" className="hover:text-sage">Services</a>
-            <a href="#office" className="hover:text-sage">Our Office</a>
-            <a href="#faq" className="hover:text-sage">FAQs</a>
-            <Button>Book a consultation</Button>
-          </nav>
-          <a href="#contact" className="md:hidden rounded-full bg-ink p-3 text-white"><Menu size={19}/></a>
-        </div>
-      </header>
+  <div className="container-narrow flex h-[76px] items-center justify-between">
+    <a href="#" className="flex items-center gap-3">
+      <span className="grid h-10 w-10 place-items-center rounded-full bg-sage text-white">
+        <Sparkles size={20} />
+      </span>
 
-      <section className="grain bg-cream">
-        <div className="container-narrow grid min-h-[680px] items-center gap-12 py-16 md:grid-cols-[1.05fr_.95fr] md:py-24">
-          <div className="fade-up">
-            <p className="mb-5 text-xs font-bold uppercase tracking-[.22em] text-sage">Therapy in Newbury Park & online across California</p>
-            <h1 className="max-w-2xl font-serif text-5xl leading-[1.02] tracking-tight md:text-7xl">A quieter place to understand what you’re carrying.</h1>
-            <p className="mt-7 max-w-xl text-lg leading-8 text-ink/70">Dr. Maya Reynolds offers warm, collaborative therapy for adults, couples, and young adults who want more clarity, connection, and room to breathe.</p>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <Button dark>Schedule a consultation</Button>
-              <Button href="#about">Meet Dr. Reynolds</Button>
-            </div>
-            <div className="mt-8 flex flex-wrap gap-5 text-sm text-ink/65">
-              <span className="flex items-center gap-2"><ShieldCheck size={16} className="text-sage"/> Private & supportive</span>
-              <span className="flex items-center gap-2"><MapPin size={16} className="text-sage"/> Newbury Park + California</span>
-            </div>
-          </div>
-          <div className="relative">
-            <div className="hero-photo min-h-[500px] rounded-[38px] shadow-soft md:min-h-[590px]" aria-label="Calm therapy setting"></div>
-            <div className="absolute -bottom-6 -left-3 max-w-[290px] rounded-3xl bg-white p-5 shadow-soft md:-left-8">
-              <p className="font-serif text-xl">“You don’t have to arrive with the right words.”</p>
-              <p className="mt-2 text-xs uppercase tracking-[.15em] text-sage">A gentle starting point</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <span>
+        <span className="block font-serif text-xl leading-none">
+          Bharath
+        </span>
+        <span className="text-[10px] font-semibold uppercase tracking-[.22em] text-sage">
+          Frontend & Full-Stack Developer
+        </span>
+      </span>
+    </a>
+
+    <nav className="hidden items-center gap-7 text-sm font-medium md:flex">
+      <a href="#about" className="hover:text-sage">About</a>
+      <a href="#services" className="hover:text-sage">Skills</a>
+      <a href="#office" className="hover:text-sage">Projects</a>
+      <a href="#faq" className="hover:text-sage">Contact</a>
+      <Button href="#contact">Let's Connect</Button>
+    </nav>
+
+    <a
+      href="#contact"
+      className="md:hidden rounded-full bg-ink p-3 text-white"
+    >
+      <Menu size={19} />
+    </a>
+  </div>
+</header>
+
+<section className="grain bg-cream">
+  <div className="container-narrow grid min-h-[680px] items-center gap-12 py-16 md:grid-cols-[1.05fr_.95fr] md:py-24">
+
+    <div className="fade-up">
+      <p className="mb-5 text-xs font-bold uppercase tracking-[.22em] text-sage">
+        Frontend & Full-Stack Developer
+      </p>
+
+      <h1 className="max-w-2xl font-serif text-5xl leading-[1.02] tracking-tight md:text-7xl">
+        Building clean, modern, and user-focused web experiences.
+      </h1>
+
+      <p className="mt-7 max-w-xl text-lg leading-8 text-ink/70">
+        I’m Bharath, a BTech Computer Science graduate passionate about
+        building responsive web applications and turning ideas into
+        practical digital experiences.
+      </p>
+
+      <div className="mt-9 flex flex-wrap gap-3">
+        <Button dark href="#office">
+          View My Projects
+        </Button>
+
+        <Button href="#about">
+          About Me
+        </Button>
+      </div>
+
+      <div className="mt-8 flex flex-wrap gap-5 text-sm text-ink/65">
+        <span className="flex items-center gap-2">
+          <Check size={16} className="text-sage" />
+          BTech Computer Science
+        </span>
+
+        <span className="flex items-center gap-2">
+          <Sparkles size={16} className="text-sage" />
+          Frontend & Full-Stack
+        </span>
+      </div>
+    </div>
+
+    <div className="relative">
+      <div
+        className="hero-photo min-h-[500px] rounded-[38px] shadow-soft md:min-h-[590px]"
+        aria-label="Developer workspace"
+      ></div>
+
+      <div className="absolute -bottom-6 -left-3 max-w-[290px] rounded-3xl bg-white p-5 shadow-soft md:-left-8">
+        <p className="font-serif text-xl">
+          “Turning ideas into useful digital experiences.”
+        </p>
+
+        <p className="mt-2 text-xs uppercase tracking-[.15em] text-sage">
+          Developer Portfolio
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
       <section id="about" className="container-narrow grid gap-12 py-24 md:grid-cols-[.8fr_1.2fr] md:py-32">
         <div>
