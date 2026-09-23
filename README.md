@@ -1,4 +1,4 @@
-# Dr. Maya Reynolds — Internship Assignment
+# Dr. Maya Reynolds — Assingment
 
 ## What is included
 - `/` — redesigned final homepage.
