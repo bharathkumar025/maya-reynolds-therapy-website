@@ -86,7 +86,7 @@ export default function Home() {
         </div>
         <div className="grid gap-8 text-lg leading-8 text-ink/70 md:grid-cols-[180px_1fr]">
           <div>
-            <img src="/placeholder.svg" alt="Illustrated portrait of Dr. Maya Reynolds" className="mx-auto aspect-square w-40 rounded-[28px] object-cover ring-8 ring-white shadow-soft" />
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=900&q=85" alt="Illustrated portrait of Dr. Maya Reynolds" className="mx-auto aspect-square w-40 rounded-[28px] object-cover ring-8 ring-white shadow-soft" />
             <p className="mt-3 text-center text-xs font-semibold uppercase tracking-[.14em] text-sage">Dr. Maya Reynolds</p>
           </div>
           <div>
