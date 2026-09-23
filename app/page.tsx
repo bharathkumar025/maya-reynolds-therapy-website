@@ -3,7 +3,7 @@ import { ArrowRight, CalendarDays, Check, ChevronDown, HeartHandshake, MapPin, M
 
 const services = [
   {
-    title: "Anxiety & Overwhelm",
+    title: "Anxiety & OverwhelmS",
     text: "Slow the noise down, understand what is driving it, and build practical ways to feel steadier in everyday life."
   },
   {
